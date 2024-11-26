@@ -4,6 +4,7 @@
   "description": "For learn node with guides of Midudev",
   "main": "index.js",
   "scripts": {
+    "dev": "PORT=1234 nodemon ./clase_2/http.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
