@@ -1,0 +1,23 @@
+{
+  "name": "practices_node",
+  "version": "1.0.0",
+  "description": "For learn node with guides of Midudev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Camilo Falla - CamiloTic",
+  "license": "ISC",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
