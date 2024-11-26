@@ -21,6 +21,29 @@ Y se hace el proceso
 
 Y lo regresa como una response en statusCode, headers, body
 
+Revisemos el status code
+
+100 - 199 Respuestas informativa
+200 - 299 Respuestas satisfactorias
+300 - 399 Redirecciones
+400 - 499 Errores del cliente, es algo que el usuario busco mal
+500 - 599 Errores del servidor
+
+Status más famosos
+
+200 OK
+301 Moved Permanently
+400 Bad Request
+404 Not Found
+500 Internal Server Error
+
+Ahora vamos a usar Nodemon
+
+Funciona bien pero carga y le impone carga y lo vuelve más lento
+
+
+
+
 
 
 

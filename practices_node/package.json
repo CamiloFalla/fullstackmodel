@@ -12,9 +12,12 @@
   "author": "Camilo Falla - CamiloTic",
   "license": "ISC",
   "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
     "picocolors": "^1.1.1"
   },
   "devDependencies": {
+    "nodemon": "^3.1.7",
     "standard": "17.1.2"
   },
   "eslintConfig": {
