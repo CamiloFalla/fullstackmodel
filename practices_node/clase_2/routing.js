@@ -1,7 +1,6 @@
 const http = require('node:http')
 
 const charmanderJSON = require('./pokemon/charmander.json')
-const { stringify } = require('json5')
 
 const processRequest = (req, res) => {
   const { method, url } = req
