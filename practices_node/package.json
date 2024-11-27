@@ -4,7 +4,9 @@
   "description": "For learn node with guides of Midudev",
   "main": "index.js",
   "scripts": {
-    "dev": "PORT=1234 nodemon ./clase_2/http.js",
+    "dev:1": "PORT=1234 nodemon ./clase_2/http.js",
+    "dev:2": "nodemon ./clase_2/routing.js",
+    "dev:3": "node --watch ./clase_2/express.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,6 +17,7 @@
   "dependencies": {
     "-": "^0.0.1",
     "D": "^1.0.0",
+    "express": "4.21.1",
     "picocolors": "^1.1.1"
   },
   "devDependencies": {

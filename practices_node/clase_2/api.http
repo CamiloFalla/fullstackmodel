@@ -1,0 +1,24 @@
+GET http://localhost:1235/pokemon/charmander
+
+### Comentario de siguiente ejercicio
+POST http://localhost:1235/pokemon
+Content-Type: application/json
+
+{
+   "name": "ditto",
+   "type": "normal",
+   "moves": [
+    "transfom"
+   ]  
+}
+### Comentario de siguiente ejercicio
+POST http://localhost:1236/pokemon
+Content-Type: application/json
+
+{
+   "name": "ditto",
+   "type": "normal",
+   "moves": [
+    "transfom"
+   ]  
+}

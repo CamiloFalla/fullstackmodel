@@ -1,5 +1,6 @@
 const http = require('node:http')
 const { findAvailablePort } = require('./free-port.js')
+const fs = require('node:fs')
 
 async function takePort (desiredPort) {
   try {
@@ -25,6 +26,17 @@ async function startServer (desiredPort) {
     } else if (req.url === '/contacto') {
       res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' })
       res.end('<h1>Entraste a mi página de Contacto!!!<h1>')
+    } else if (req.url === '/imagecool') {
+      fs.readFile('./clase_2/miimage.jpeg', (err, data) => {
+        if (err) {
+          console.error('Error al leer el archivo:', err)
+          res.writeHead(500, { 'Content-Type': 'text/html; charset=utf-8' })
+          res.end('<h1>Internal Server Error!!!<h1>')
+        } else {
+          res.writeHead(200, { 'Content-Type': 'image/jpeg' })
+          res.end(data)
+        }
+      })
     } else {
       res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' })
       res.end('<h1>404<h1>')

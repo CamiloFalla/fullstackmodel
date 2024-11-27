@@ -41,6 +41,21 @@ Ahora vamos a usar Nodemon
 
 Funciona bien pero carga y le impone carga y lo vuelve más lento
 
+Ahora veamos los metodos
+
+GET Para hacer una peticion para recuperar datos
+
+HEAD Para hacer una petición pero sin mirar el body
+
+POST Para crear una entidad de un  recurso
+
+PUT para reemplazar un recurso
+
+DELETE Borrar un recurso
+
+OPTIONS quiero que me indiques con esta URL cuales son los modos de comunicacion contigo
+
+
 
 
 
